@@ -1,0 +1,17 @@
+{
+    "name": "wpjscc/oss",
+    "description": "oss within Winter CMS",
+    "type": "winter-plugin",
+    "require": {
+        "alphasnow/aliyun-oss-laravel": "^4.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wpjscc"
+        }
+    ],
+    "extra": {
+        "installer-name": "oss"
+    }
+}
