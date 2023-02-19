@@ -1,3 +1,3 @@
 ```
-composer require wpjscc/oss -vvv dev-master
+composer require wpjscc/wn-oss-plugin -vvv dev-master
 ```
