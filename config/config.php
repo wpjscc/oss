@@ -29,7 +29,7 @@
                 "reverse_proxy"     => env("OSS_REVERSE_PROXY", false),    // 选填, 域名是否使用NGINX代理绑定
                 "options"           => [],                                 // 选填, 添加全局配置参数, 示例: [\OSS\OssClient::OSS_CHECK_MD5 => false]
                 "macros"            => [
- 
+                    Wpjscc\Oss\OssMacro\DownloadUrl::class,
                 ]
             ],
         ]
